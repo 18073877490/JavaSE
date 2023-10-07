@@ -8,6 +8,12 @@ public class Circle extends GeometricObject {
         this.radius = radius;
     }
 
+    public Circle() {
+        super();
+        radius = 2.0;
+    }
+
+
     @Override
     public double findArea() {
         return 3.14 * radius * radius;
@@ -20,5 +26,5 @@ public class Circle extends GeometricObject {
     public void setRadius(double radius) {
         this.radius = radius;
     }
-
 }
+

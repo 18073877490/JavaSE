@@ -9,6 +9,11 @@ public class GeometricObject {
         this.weight = weight;
     }
 
+    public GeometricObject() {
+        color = "black";
+        weight = 10;
+    }
+
     public double findArea() {
         return 0;
     }
