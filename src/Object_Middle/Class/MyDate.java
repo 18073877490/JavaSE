@@ -14,6 +14,10 @@ public class MyDate {
         this.year = year;
     }
 
+    public String toDateString() {
+        return getYear() + "年" + getMonth() + "月" + getDay() + "日";
+    }
+
     public boolean equals(MyDate obj) {
         return (day == obj.getDay()) && (month == obj.getMonth()) && (year == obj.getYear());
     }
